@@ -2,6 +2,10 @@ function Tagok(){
     window.location.href = "tagok.html"
 }
 
+function Github(){
+    window.location.href = "https://github.com/em-bear/EmBear-project"
+}
+
 function Menu(){
     window.location.href = "menu.html"
 }
