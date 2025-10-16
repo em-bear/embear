@@ -43,8 +43,8 @@ header, footer .container {
 
 details {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     display: block;
     width: 100%;             
     margin: 20px auto;         
@@ -55,7 +55,7 @@ details > * {
     max-width: 2200px;       
     margin: 0 auto;   
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 .container {
