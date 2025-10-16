@@ -15,19 +15,23 @@ body {
     color: #FFFFFF;
 }
 
+#logo{
+    margin-top: 7px;
+}
+
 header {
     margin-bottom: 69px;
 }
 
 footer {
     margin-top: 69px;
-    height: auto;
-    padding: 20px 0;
+    height: 199px;
 }
 
-footer, header {
+footer, header{
     background-color: #0B1A2E;
     width: 100%;
+    border-radius: none;
     box-shadow: none;
 }
 
@@ -45,6 +49,9 @@ details {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+details {
     display: block;
     width: 100%;             
     margin: 20px auto;         
@@ -75,7 +82,7 @@ img {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.button-group, .button-group2 {
+.button-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -91,10 +98,25 @@ img {
     text-decoration: none;
 }
 
-.button-group3 button{
+.button-group2 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    border-radius: 22px;
+    border: 3px solid #0077B6;
+    background-color: #0B1A2E;
+    color: #FFFFFF;
+    width: 145px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.button-group3 {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 20px 0;
     font-size: 20px;
@@ -109,7 +131,7 @@ h1 {
     margin: 20px 0;
 }
 
-h3 {
+h3{
     font-size: 24px;
     color: #0B1A2E;
     margin: 20px 0;
@@ -135,5 +157,11 @@ p {
 @media (min-width: 1200px) {
     p {
         font-size: 26px;
+    }
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
     }
 }
