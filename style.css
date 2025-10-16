@@ -114,7 +114,7 @@ img {
     text-decoration: none;
 }
 
-button-group3 {
+.button-group3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
