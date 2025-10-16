@@ -15,23 +15,19 @@ body {
     color: #FFFFFF;
 }
 
-#logo{
-    margin-top: 7px;
-}
-
 header {
     margin-bottom: 69px;
 }
 
 footer {
     margin-top: 69px;
-    height: 199px;
+    height: auto;
+    padding: 20px 0;
 }
 
-footer, header{
+footer, header {
     background-color: #0B1A2E;
     width: 100%;
-    border-radius: none;
     box-shadow: none;
 }
 
@@ -49,9 +45,6 @@ details {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-details {
     display: block;
     width: 100%;             
     margin: 20px auto;         
@@ -82,23 +75,7 @@ img {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.button-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin: 20px 0;
-    font-size: 20px;
-    border-radius: 22px;
-    border: 3px solid #0077B6;
-    background-color: #0B1A2E;
-    color: #FFFFFF;
-    width: 145px;
-    height: 40px;
-    text-decoration: none;
-}
-
-.button-group2 {
+.button-group, .button-group2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -116,7 +93,8 @@ img {
 
 .button-group3 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin: 20px 0;
     font-size: 20px;
@@ -131,7 +109,7 @@ h1 {
     margin: 20px 0;
 }
 
-h3{
+h3 {
     font-size: 24px;
     color: #0B1A2E;
     margin: 20px 0;
@@ -158,10 +136,49 @@ p {
     p {
         font-size: 26px;
     }
-    header {
-        width: 100%;
-    }
-    footer {
-        width: 100%;
-    }
+}
+
+/* --- FONT AWESOME IKONOK --- */
+.social-icons {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 45px;
+    color: #FFFFFF;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icon-button:hover {
+    transform: scale(1.15);
+}
+
+/* Színek ikonokra */
+.icon-button .fa-instagram:hover {
+    color: #E1306C;
+}
+
+.icon-button .fa-github:hover {
+    color: #6e5494;
+}
+
+.icon-button .fa-youtube:hover {
+    color: #FF0000;
+}
+
+.icon-button .fa-tiktok:hover {
+    color: #69C9D0;
+}
+
+.contact-text {
+    color: lightgrey;
+    font-size: 16px;
+    margin-top: 15px;
 }
