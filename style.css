@@ -88,9 +88,6 @@ img {
     justify-content: center;
     gap: 10px;
     margin: 20px 0;
-}
-
-button {
     font-size: 20px;
     border-radius: 22px;
     border: 3px solid #0077B6;
@@ -107,6 +104,26 @@ button {
     justify-content: center;
     gap: 10px;
     margin: 20px 0;
+    font-size: 20px;
+    border-radius: 22px;
+    border: 3px solid #0077B6;
+    background-color: #0B1A2E;
+    color: #FFFFFF;
+    width: 145px;
+    height: 40px;
+    text-decoration: none;
+}
+
+button-group3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    background-color: #0B1A2E;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 h1 {
