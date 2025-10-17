@@ -23,7 +23,7 @@ header {
 
 footer {
     margin-top: 69px;
-    height: 199px;
+    min-height: 199px;
 }
 
 footer, header{
